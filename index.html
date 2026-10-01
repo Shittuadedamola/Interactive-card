@@ -36,13 +36,38 @@
     <section class="mt-20 p-10">
         <div class="flex flex-col mb-7">
             <label for="email" class="mb-2 font-bold">CARDHOLDER NAME</label>
-            <input type="email" placeholder="e.g. Jane Appleseed"
+            <input type="email" id="email" placeholder="e.g. Jane Appleseed"
             class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400">
         </div>
-        <div class="flex flex-col">
-            <label for="email" class="mb-2 font-bold">CARD NUMBER</label>
-            <input type="email" placeholder="e.g. 1234 5678 9123 0000"
+        <div class="flex flex-col mb-7">
+            <label for="cardNum" class="mb-2 font-bold">CARD NUMBER</label>
+            <input type="number" id="cardNum" placeholder="e.g. 1234 5678 9123 0000"
             class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400">
+        </div>
+        <div class="flex">
+            <div class="mr-2">
+                <label class="font-bold">EXP. DATE (MM/YY)</label>
+                <div class="flex mt-2">
+                    <input
+                    type="text"
+                    aria-label="Expiration month"
+                    placeholder="MM"
+                    class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400 w-19 mr-2"
+                    >
+
+                    <input
+                    type="text"
+                    aria-label="Expiration year"
+                    placeholder="YY"
+                    class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400 w-19"
+                    >
+                </div>
+            </div>
+            <div>
+                <label for="email" class="font-bold">CVC</label>
+                <input type="number" placeholder="e.g. 123"
+                class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400 mt-2 w-full">
+            </div>
         </div>
     </section>
 </body>
