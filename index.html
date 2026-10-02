@@ -11,17 +11,17 @@
         <div class="h-[250px] sm:h-[300px] bg-purple-900 md:h-[100vh] md:w-[30vw]"></div>
         <div class="w-[300px] h-[150px] bg-gray-100 rounded-lg pt-5 absolute top-10 right-7 shadow-lg shadow-gray-500 sm:w-[350px] sm:h-[200px] sm:right-20 md:w-[300px] md:h-[150px] md:top-90 md:left-20 lg:w-[350px] lg:h-[180px] lg:top-125 lg:left-30 xl:w-[500px] xl:h-[240px] xl:left-50">
             <div class="w-[100%] h-[30%] bg-black"></div>
-            <div class="w-[80%] h-[25%] bg-gray-400 rounded text-white text-sm mx-auto mt-3 sm:mt-5 flex items-center justify-end pe-5 italic">000</div>
+            <div class="w-[80%] h-[25%] bg-gray-400 rounded text-white text-sm lg:text-xl mx-auto mt-3 sm:mt-5 flex items-center justify-end pe-5 italic">000</div>
         </div>
         <div class="w-[300px] h-[150px] bg-linear-to-br from-indigo-500 via-pink-500 to-purple-500 rounded-lg pt-5 absolute top-36 left-7 p-5 sm:w-[350px] sm:h-[200px] sm:top-45 sm:left-20 md:w-[300px] md:h-[150px] md:left-10 lg:w-[350px] lg:h-[180px] lg:top-75 lg:left-20 xl:w-[500px] xl:h-[240px] xl:top-60 xl:left-35">
             <div class="flex items-center">
                 <div class="w-[35px] h-[35px] bg-white rounded-full mr-3"></div>
                 <div class="w-[15px] h-[15px] border border-white rounded-full border-2"></div>
             </div>
-            <div class="text-white mt-6 text-2xl">0000 0000 0000 0000</div>
-            <div class="text-white mt-1 flex justify-between">
+            <div class="text-white mt-6 text-2xl lg:text-[1.5rem] lg:mt-7 sm:mt-10 md:mt-5">0000 0000 0000 0000</div>
+            <div class="text-white mt-1 flex justify-between lg:text-xl sm:mt-4 md:mt-2 lg:mt-5">
                 <span>
-                    Jane Appleseed
+                    JANE APPLESEED
                 </span>
                 <span>
                     <span>00</span>
@@ -35,46 +35,57 @@
     </section>
 
     <section class="mt-20 p-10 lg:px-30 lg:flex lg:flex-col lg:items-center lg:justify-center">
-        <div>
+        <div class="">
             <div class="flex flex-col mb-7">
-            <label for="email" class="mb-2 font-bold">CARDHOLDER NAME</label>
-            <input type="email" id="email" placeholder="e.g. Jane Appleseed"
-            class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400">
-        </div>
-        <div class="flex flex-col mb-7">
-            <label for="cardNum" class="mb-2 font-bold">CARD NUMBER</label>
-            <input type="number" id="cardNum" placeholder="e.g. 1234 5678 9123 0000"
-            class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400">
-        </div>
-        <div class="flex">
-            <div class="mr-2">
-                <label class="font-bold">EXP. DATE (MM/YY)</label>
-                <div class="flex mt-2">
-                    <input
-                    type="text"
-                    aria-label="Expiration month"
-                    placeholder="MM"
-                    class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400 w-19 mr-2"
-                    >
+                <label for="email" class="mb-2 font-bold">CARDHOLDER NAME</label>
+                <input type="email" id="email" placeholder="e.g. Jane Appleseed"
+                class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400">
+            </div>
+            <div class="flex flex-col mb-7">
+                <label for="cardNum" class="mb-2 font-bold">CARD NUMBER</label>
+                <input type="number" id="cardNum" placeholder="e.g. 1234 5678 9123 0000"
+                class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400">
+            </div>
+            <div class="flex">
+                <div class="mr-2">
+                    <label class="font-bold">EXP. DATE (MM/YY)</label>
+                    <div class="flex mt-2">
+                        <input
+                        type="text"
+                        aria-label="Expiration month"
+                        placeholder="MM"
+                        class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400 w-19 mr-2"
+                        >
 
-                    <input
-                    type="text"
-                    aria-label="Expiration year"
-                    placeholder="YY"
-                    class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400 w-19"
-                    >
+                        <input
+                        type="text"
+                        aria-label="Expiration year"
+                        placeholder="YY"
+                        class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400 w-19"
+                        >
+                    </div>
+                </div>
+                <div>
+                    <label for="email" class="font-bold">CVC</label>
+                    <input type="number" placeholder="e.g. 123"
+                    class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400 mt-2 w-full">
                 </div>
             </div>
-            <div>
-                <label for="email" class="font-bold">CVC</label>
-                <input type="number" placeholder="e.g. 123"
-                class="border border-gray-300 rounded-md p-2 text-2xl text-gray-400 mt-2 w-full">
-            </div>
+
+            <button class="mt-7 w-full flex items-center justify-center p-5 bg-purple-900 rounded-lg font-bold text-xl text-white">
+                Confirm
+            </button>
         </div>
 
-        <button class="mt-7 w-full flex items-center justify-center p-5 bg-purple-900 rounded-lg font-bold text-xl text-white">
-            Confirm
-        </button>
+        <div class="flex flex-col items-center justify-center hidden">
+            <div class="w-[100px] h-[100px] bg-linear-to-br from-purple-500 to-indigo-500 rounded-full">
+                 
+            </div>
+            <h1 class="text-purple-900 text-3xl mt-10">THANK YOU!</h1>
+            <p class="text-gray-400 text-xl mt-5">We've added your card details</p>
+            <button class="mt-7 w-full flex items-center justify-center p-5 bg-purple-900 rounded-lg font-bold text-xl text-white">
+                Continue
+            </button>
         </div>
     </section>
 </body>
