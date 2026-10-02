@@ -27,7 +27,7 @@ const confirm =()=>{
     inputMonth.value = ""
     inputYear.value = ""
 
-    // fillInfo.classList.toggle("hidden")
-    // thankYou.classList.toggle("hidden")
+    fillInfo.classList.toggle("hidden")
+    thankYou.classList.toggle("hidden")
 }
 
