@@ -31,7 +31,7 @@ const confirm =()=>{
     thankYou.classList.toggle("hidden")
 }
 
-// const continueButton =()=>{
-//     window.location.reload()
-// }
+const continueButton =()=>{
+    window.location.reload()
+}
 
