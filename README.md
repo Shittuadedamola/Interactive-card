@@ -27,3 +27,21 @@ JavaScript
 DOM Manipulation
 
 Event Listeners
+
+WHAT I LEARNED
+
+Building this project helped me practise:
+
+Retrieving and handling user input values.
+
+Updating HTML elements dynamically with JavaScript.
+
+Using event listeners to respond to user interactions.
+
+Formatting numeric input for improved readability.
+
+Working with strings and JavaScript methods.
+
+Connecting form inputs to a live interface.
+
+Improving the user experience through interactive design.
