@@ -45,3 +45,18 @@ Working with strings and JavaScript methods.
 Connecting form inputs to a live interface.
 
 Improving the user experience through interactive design.
+
+IMPORTANT NOTE
+
+This project is for demonstration and educational purposes only. The displayed
+card is a dummy card and is not connected to a bank, payment processor, or
+financial institution. Do not enter real credit card information or sensitive
+financial details.
+
+AUTHOR
+
+Adedamola Shittu
+
+GitHub: @Shittuadedamola
+
+Built as part of my journey in learning front-end web development.
